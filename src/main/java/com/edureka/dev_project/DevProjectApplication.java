@@ -17,4 +17,10 @@ public class DevProjectApplication {
 	public String hello() {
 		return "<h1>Hello There!!! Welcome to my project</h1>";
 	}
+
+	
+	@GetMapping("/inbox")
+	public String inbox() {
+		return "<h1>This is the inbox module</h1>";
+	}
 }
